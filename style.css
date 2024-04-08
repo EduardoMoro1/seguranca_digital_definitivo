@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@media screen and (min-width: 768px) {
+    .parametro-coluna__senha{
+        flex-direction: row;
+    }
+}
+/*____________________________________________________________________________*/
+:root{
+    --branco:white;
+    --cor-do-fundo:#001f3f;
+    --fundo-senha:#311e05;
+    --fundo-texto:#090d35;
+    --borda:#FF851B;
+    --chakra-petch:"Chakra Petch", sans-serif;
+}
+body{
+    background-color:var(--cor-do-fundo);
+    color: var(--branco)
+}
+/*_____________________________titulos_______________________________________*/
+.titulo-principal{
+    font-family: var(--chakra-petch);
+    font-size: 32px;
+}
+.titulo-secundario{
+    font-family: var(--chakra-petch);
+    font-size: 20px;
+}
+.conteudo-titulo{
+    text-align: center;
+    margin-top: 80px;
+}
+/*_________________________parametro e senha___________________________________*/
+.parametro-titulo{
+    font-family: var(--chakra-petch);
+    font-size: 28px;
+}
+.parametro{
+    font-family: var(--chakra-petch);
+    background: linear-gradient(to right, #311e05, #8d5501, #311e05);
+    border: 5px solid var(--borda);
+    margin-top: 32px;
+    padding: 24px;
+}
+.parametro-senha-titulo{
+    font-family: var(--chakra-petch);
+    font-size: 24px;
+}
+.parametro-coluna-senha{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.parametro-senha{
+    width: 50%;
+    margin: 0 auto;
+}
+/*_______________________________Numero de caracteres____________________________*/
+.parametro-senha-botoes{
+    display: flex;
+    justify-content: center;
+
+}
+.parametro-senha-botao{
+    background-color: var(--fundo-texto);
+    color: white;
+    border: 2px solid var(--borda);
+    padding: 24px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.parametro-senha-numero{
+    font-family: var(--chakra-petch), Arial, Helvetica, sans-serif;
+    background-color: var(--fundo-texto);
+    padding: 24px;
+    border-top: 2px solid var(--borda);
+    border-bottom: 2px solid var(--borda);
+    margin: 0;
+}
+/*________________________________CheckBoxes_______________________________________*/
+.label{
+    font-size: 20px;
+}
+.checkbox{
+    width: 20ox;
+    height:20px;
+    cursor: pointer;
+}
+
+
+
+
